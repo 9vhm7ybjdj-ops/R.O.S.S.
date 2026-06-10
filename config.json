@@ -1,0 +1,164 @@
+{
+  "knownDevices": [
+    "side 1 toaster", "side 2 toaster", "toaster", "uhc", "grill",
+    "shake machine", "frappe machine", "pos", "kvs", "mccafe machine",
+    "bun toaster", "muffin toaster", "press toaster", "cafe toaster", "mccafe toaster",
+    "ice cream machine", "vat", "coffee machine",
+    "drink dispenser", "post mix", "drive thru headset", "oven",
+    "holding bin", "dishwasher", "freezer", "cool room", "hot holding cabinet"
+  ],
+  "deviceAliases": {
+    "vat": ["fryer", "vats", "fryers", "deep fryer", "vatt", "fryr", "henny penny", "frymaster", "lve 100", "lve 200", "biela14", "henny penny lve 100", "henny penny lve 200", "frymaster biela14", "chick vat", "fish vat", "chicken vat", "back area vat", "front area vat", "fry vat", "chick vats", "fish vats", "chicken vats", "back area vats", "front area vats", "fry vats"],
+    "grill": ["gril", "grille", "clamshell", "grll", "gril l", "grillle", "platen 1", "platen 2", "platen 3", "platen 4", "platen 5", "platen 6"],
+    "shake machine": ["shak machine", "milkshake machine", "ice cream mach", "shake mach", "icecream machine", "taylor", "c602", "carpigiani", "k3", "sundae machine", "shake", "shake 1", "shake 2", "left shake machine", "right shake machine", "sundae unit", "freezer lock", "thermistor", "motor trip", "overload", "syrup"],
+    "coffee machine": ["mccafe", "coffee mach", "caffey machine", "cofee machine", "coffe machine"],
+    "side 1 toaster": ["s1 toaster"],
+    "side 2 toaster": ["s2 toaster"],
+    "muffin toaster": ["muffin mach", "muffin unit", "muffin tost"],
+    "toaster": ["toster", "tostar", "bunn toaster"],
+    "pos": ["register", "till", "cash register"],
+    "kvs": ["monitor", "screen", "kitchen screen"]
+  },
+  "deviceSpecificFixes": {
+    "vat": ["Reset High-Limit Switch", "Clean Vat Probes", "Clean Filter Pan"],
+    "henny penny lve 100": ["Reset High-Limit Switch", "Clean Vat Probes", "Clean Filter Pan"],
+    "henny penny lve 200": ["Reset High-Limit Switch", "Clean Vat Probes", "Clean Filter Pan"],
+    "frymaster biela14": ["Reset High-Limit Switch", "Close Drain Valve", "Clean Vat Probes", "Clean Filter Pan"],
+    "coffee machine": ["Check Water Supply Valve", "Check Water Filter"],
+    "side 1 toaster": ["Clean Release Sheets", "Adjust Compression", "Check if the belts are turning inside", "Check Toaster Heating Elements/Settings"],
+    "side 2 toaster": ["Clean Release Sheets", "Adjust Compression", "Check if the belts are turning inside", "Check Toaster Heating Elements/Settings"],
+    "side 3 toaster": ["Clean Release Sheets", "Adjust Compression", "Check if the belts are turning inside", "Check Toaster Heating Elements/Settings"],
+    "side 4 toaster": ["Clean Release Sheets", "Adjust Compression", "Check if the belts are turning inside", "Check Toaster Heating Elements/Settings"],
+    "toaster": ["Check Toaster Heating Elements/Settings"],
+    "bun toaster": ["Clean Release Sheets", "Adjust Compression", "Check if the belts are turning inside", "Check Toaster Heating Elements/Settings"],
+    "muffin toaster": ["Check Toaster Heating Elements/Settings"],
+    "press toaster": ["Check Toaster Heating Elements/Settings"],
+    "cafe toaster": ["Check Toaster Heating Elements/Settings"],
+    "mccafe toaster": ["Check Toaster Heating Elements/Settings"],
+    "shake machine": ["Check Mix Level", "Reset Pump", "Clean Air Filter", "Perform Brush Clean", "Reset Motor Overload", "Clean Duckbills", "Flush and Sanitise Syrup Lines"]
+  },
+  "fixExplanations": {
+    "Reset High-Limit Switch": "Allow the element to cool for 10-15mins. Locate the reset button... Press it firmly until it clicks.",
+    "Check Water Supply Valve": "Locate the water tap behind or under the machine. Ensure it is turned fully to the open position.",
+    "Check Water Filter": "Check the external water filter gauge. If the pressure is too low... it may be blocked.",
+    "Check Power Lead": "Ensure the heavy-duty power cable is twisted into the socket correctly and the locking ring is tight.",
+    "Scrape Top Platens": "Using gloves remove the teflon sheets. Use the scraper to make sure there is no carbon or food build-up. Check teflon for wear and tear and replace if necessary.",
+    "Clean Release Sheets": "The black non-stick sheets should be clean. Wipe them with a clean cloth or replace them.",
+    "Adjust Compression": "Check the thickness dials on the side... it can cause the bread to be burnt or undercooked.",
+    "Check if the belts are turning inside": "Look through the side glass or open the cover. The black belts should be moving smoothly. If they are stationary or stuttering, the motor or drive gear may be damaged.",
+    "Check Toaster Heating Elements/Settings": "Check the toaster's temperature/darkness settings. Ensure heating elements are glowing and free from debris. If applicable, check the thermostat.",
+    "Check Mix Level": "Check the hopper. Ensure there is enough liquid mix, but also make sure it hasn't been overfilled.",
+    "Reset Pump": "Reset the pump overload using the red reset button on the rear of the machine.",
+    "Clean Air Filter": "Check the mesh vents on the side or back for dust. Give them a quick wipe if they look blocked.",
+    "Reset Motor Overload": "Locate the red reset buttons on the rear of the machine (one for each beater motor). Press the button firmly until it clicks. If it trips again immediately, the machine may be frozen up.",
+    "Close Drain Valve": "Locate the blue handle under the vat. Ensure it is pushed all the way in to the closed position. The machine will not heat if this is open.",
+    "Clean Vat Probes": "Use a vat brush or Scotch-Brite pad to gently clean any carbon buildup off the level and temperature sensors located inside the vat walls.",
+    "Clean Duckbills": "Remove the syrup lines from the machine. Locate the rubber duckbill valves at the end of the lines. Clean any syrup build-up and ensure they are not stuck, torn, or inverted.",
+    "Flush and Sanitise Syrup Lines": "Remove lines from syrup bottles and flush the lines with warm water and APC to clear any blockages. Follow with a sanitising solution before reconnecting the syrup.",
+    "Perform Brush Clean": "A 'Brush Clean' lockout occurs every 14 days on Taylor C602 units. This requires a full disassembly of the freezing cylinder and mix pump, cleaning and sanitizing all components, and reassembling/priming the machine.",
+    "Change Oil": "Drain old oil, clean vat thoroughly, and refill with fresh oil to the correct level.",
+    "Clean Filter Pan": "Remove the filter pan, clean out any debris, and ensure the filter screen/paper is clear.",
+    "Power Cycle": "Turn the machine off at the wall, wait 30 seconds, then turn it back on.",
+    "Check Temperature Settings": "Verify the grill's programmed temperature settings are correct for the product being cooked.",
+    "Clean Heating Elements": "Ensure the heating elements are free from food debris or carbon buildup. Use appropriate cleaning tools.",
+    "Check for Obstructions": "Inspect the platen's movement path for any food, utensils, or foreign objects blocking its operation."
+  },
+  "specializedScenarios": [
+    {
+      "device": "vat",
+      "pattern": "e-?10|e03",
+      "message": "This error code usually indicates that the High-Limit has tripped, protecting the vat from overheating.",
+      "fix": "Reset High-Limit Switch"
+    },
+    {
+      "device": "vat",
+      "pattern": "drain open",
+      "message": "The vat will not heat if the drain valve is even slightly open.",
+      "fix": "Close Drain Valve"
+    },
+    {
+      "device": "vat",
+      "pattern": "e[-\\s]*82",
+      "message": "I see you have an E82 error. This usually means the High-Limit has tripped.",
+      "fix": "Reset High-Limit Switch"
+    },
+    {
+      "device": "vat",
+      "pattern": "filter|oil change|oil quality",
+      "message": "If the vat is indicating a filter or oil change, please follow the daily cleaning procedures. Ensure the filter pan is clean and the filter paper is correctly installed.",
+      "options": ["Change Oil", "Clean Filter Pan"]
+    },
+    {
+      "device": "vat",
+      "pattern": "e[-\\s]*[13-79]|error code",
+      "message": "For general vat error codes (excluding E82), a power cycle can often resolve the issue. If not, please note the exact code for eTech.",
+      "fix": "Power Cycle"
+    },
+    {
+      "device": "grill",
+      "pattern": "not heating|cold spot|no heat|element failure",
+      "message": "If the grill is not heating evenly or at all, check the temperature settings and ensure the heating elements are clean.",
+      "options": ["Check Temperature Settings", "Clean Heating Elements", "Power Cycle"]
+    },
+    {
+      "device": "grill",
+      "pattern": "platen stuck|platen not closing|not closing",
+      "message": "If the grill platen is stuck or not closing properly, check for obstructions and ensure the platen is clean.",
+      "options": ["Check for Obstructions", "Scrape Top Platens"]
+    },
+    {
+      "device": "toaster",
+      "pattern": "not heating|cold|no heat|not toasting|burnt|undercooked",
+      "message": "If the toaster isn't heating or toasting correctly, check its settings and heating elements.",
+      "options": ["Check Toaster Heating Elements/Settings", "Adjust Compression"]
+    },
+    {
+      "device": "side 1 toaster",
+      "pattern": "stuck|jammed|moving",
+      "message": "If items are getting stuck or not moving, it's usually the release sheets or the belts.",
+      "options": ["Clean Release Sheets", "Check if the belts are turning inside"]
+    },
+    {
+      "device": "shake machine",
+      "pattern": "freezer[-\\s]*lock|lockout",
+      "message": "A 'Freezer Lock' is usually caused by a missed Brush Clean or a Heat Treatment failure. Tip: Check the hopper level first; it must be between the 'Min' and 'Max' lines to work correctly.",
+      "options": ["Check Mix Level", "Perform Brush Clean"]
+    },
+    {
+      "device": "shake machine",
+      "pattern": "brush[-\\s]*clean",
+      "message": "A Brush Clean lockout occurs on Taylor C602 units every 14 days. This requires a full disassembly and cleaning of the machine.",
+      "fix": "Perform Brush Clean"
+    },
+    {
+      "device": "shake machine",
+      "pattern": "heat[-\\s]*treat",
+      "message": "Heat Treatment failures usually happen if the mix level is too low, too high, or the machine can't 'breathe' properly. Tip: Ensure your air filters are clear and the mix is below the 'Max' line.",
+      "options": ["Check Mix Level", "Clean Air Filter"]
+    },
+    {
+      "device": "shake machine",
+      "pattern": "thermistor|e[-\\s]*0[45]|error",
+      "message": "E04 and E05 errors indicate a thermistor (sensor) problem. This often requires a technician, but a power cycle might clear the fault.",
+      "fix": "Power Cycle"
+    },
+    {
+      "device": "shake machine",
+      "pattern": "motor[-\\s]*trip|overload|barrel[-\\s]*not[-\\s]*turning|dispensing|freezing",
+      "message": "A Beater Motor Trip usually happens if the product gets too thick or the barrel freezes up.",
+      "options": ["Reset Motor Overload", "Power Cycle"]
+    },
+    {
+      "device": "shake machine",
+      "pattern": "flavour|flavor|syrup|no[-\\s]*taste|not[-\\s]*dispensing[-\\s]*(flavour|flavor)",
+      "message": "If the shake side isn't dispensing flavour correctly, it's usually a supply issue.",
+      "options": ["Clean Duckbills", "Flush and Sanitise Syrup Lines"]
+    },
+    {
+      "device": "coffee machine",
+      "pattern": "no\\s*water",
+      "message": "A 'No Water' error usually means the supply is cut off or a filter is blocked.",
+      "options": ["Check Water Supply Valve", "Check Water Filter"]
+    }
+  ]
+}

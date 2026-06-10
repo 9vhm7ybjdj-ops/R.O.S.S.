@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>R.O.S.S. - Repair & Operations Smart System</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="header">
+  <div class="header-title">
+    <span>🤖</span>
+    <span>R.O.S.S. - Repair & Operations Smart System</span>
+  </div>
+  <div class="menu-icon" onclick="toggleMenu()">☰</div>
+</div>
+
+<div id="menu" class="menu">
+  <button onclick="restartRoss()">🔄 Restart R.O.S.S.</button>
+  <button onclick="exitRoss()">🚪 Exit</button>
+</div>
+
+<div class="chat-container" id="chat"></div>
+
+<div class="input-bar">
+  <input id="userInput" type="text" placeholder="Describe the issue (e.g. 'My side 1 toaster isn’t working')">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
